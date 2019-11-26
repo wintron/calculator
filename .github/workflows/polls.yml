@@ -13,3 +13,4 @@ jobs:
     - uses: imjohnbo/gh-polls-bot-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # created for you automatically; https://help.github.com/en/github/automating-your-workflow-with-github-actions/virtual-environments-for-github-actions#github_token-secret
+        LOG_LEVEL: debug
